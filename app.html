@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <style>
+      * {
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+      }
+      html {
+        font-size: 1rem;
+        font-family: sans-serif;
+      }
+      .container {
+        margin-top: 12px;
+        padding:1em 1em;
+      }
+      h1 {
+        margin-bottom: 12px;
+      }
+
+      #input {
+        width: 250px;
+        height: 40px;
+        font-size: 1.2rem;
+        padding: 0.5em 0.2em;
+      }
+      .input_container {
+        margin-top: 12px;
+      }
+      h3 {
+        margin-top: 17px;
+        margin-bottom: 12px;
+        font-size: 1.5rem;
+      }
+      #meaningContainer {
+        font-size: 1.3rem;
+        text-transform: capitalize;
+        margin-bottom: 12px;
+      }
+      .btn {
+        background-color: greenyellow;
+        color: black;
+        padding: 0.5em 1em;
+        font-size: 1.2em;
+        cursor: pointer;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Dictionary</h1>
+      <div class="input_container">
+        <input type="text" id="input" />
+        <h3>Meaning</h3>
+        <p id="meaningContainer"></p>
+
+        <button class="btn">Search</button>
+      </div>
+    </div>
+  </body>
+  <script src="/app.js"></script>
+</html>
